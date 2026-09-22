@@ -2,7 +2,7 @@ function slugify(title) {
     const free = title.toLowerCase()
     const green = free.split(' ')
     const red = green.join('-')
-    return `"${red}"`;
+    return red;
 }
 
 
